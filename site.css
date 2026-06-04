@@ -1,0 +1,358 @@
+html{
+    background-color: #f5f2e8;
+}
+body{
+    margin: 0 auto;
+    max-width: 1000px;
+    background-color: #f5f2e8;
+    color: #0a1f44;
+    padding: 20px;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 3px solid #c9a84c;
+    background-color: #0a1f44;
+    margin: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    color: #f5f2e8 ;
+
+
+}
+.header a{
+    color: #f5f2e8 ;
+}
+.logo img{
+    width: 200px;
+    margin: 0;
+}
+.logo{
+    margin: 0 auto;
+    margin-top: 20px;
+    align-items:
+    center;
+}
+
+.logo a{
+    margin: 0;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+}
+a {
+    color: #c9a84c;
+    text-decoration: none;
+}
+li{
+    font-size: 1.25em;
+
+}
+li img {
+    width: 15px;
+    height: 15px;
+    padding-bottom: 0px;
+    vertical-align: middle;
+}
+h1{
+    color: #f5f2e8;
+    text-align: center;
+    /* padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0px; */
+    /* padding: 0 20px; */
+    margin: 0;
+
+}
+.body img{
+    width: 100%;
+    max-width: 600px;
+}
+.body p{
+    margin-bottom: 60px;
+}
+footer {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+
+    border-top: 3px solid #c9a84c;
+    background-color: #0a1f44;
+    color: #ccd6e8;
+}
+h2{
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    margin: 20px 0;
+    color: #1a3a6b;
+}
+h3{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #1a3a6b;
+}
+.straight {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+    background-color: #eef1f7;
+    border-left: 4px solid #2e6da4;
+}
+.reverse {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+    background-color: #0a1f44;
+    border-left: 4px solid #c9a84c;
+    color: #ccd6e8;
+}
+img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    max-width: 600px;
+}
+p {
+    width: 100%;
+    /* margin-bottom: 0px; */
+     max-width: 600px;
+
+}
+.buttonA, .buttonB, .buttonC{
+    border: 0;
+    background-color: transparent;
+    width: 100%;
+    max-width: 600px;
+}
+@media (min-width: 750px){
+    ul{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .reverse{
+        flex-direction: row-reverse;
+        gap: 20px;
+    }
+    .straight{
+        flex-direction: row;
+        gap: 20px;
+    }
+    .straight img {
+        width: 50%;
+        max-width: 600px;
+    }
+    .straight picture img{
+        width:100%;
+        max-width: 600px;
+    }
+    .reverse img {
+        width: 50%;
+        max-width: 600px;
+    }
+    #hamb-button{
+        display:none;
+    }
+    #hamb-nav{
+        padding-top: 10px;
+    }
+}
+.hidden {
+    display: none !important;
+}
+.hamb-class{
+    background-color: #0a1f44;
+    border: 0px;
+    width: 80px;
+    padding: 10px;
+}
+
+.hamb-align{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+}
+.header h1{
+    flex: 1;
+}
+.header button{
+    margin-left: auto;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.title-centerer{
+    width: 80px;
+}
+
+.buttonA img{
+    width: 100%;
+    max-width: 600px;
+}
+.buttonB img{
+    width: 100%;
+    max-width: 600px;
+}
+.buttonC img{
+    width: 100%;
+    max-width: 600px;
+}
+button{
+    background-color: transparent;
+    border: 0;
+}
+#transparent-effect1{
+    z-index: 1;
+    position: fixed;
+    background-color: #00000080;
+    width:100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+#modal-content1{
+    z-index: 2;
+    position: fixed;
+    /* top: 0;
+    bottom: 0; */
+    display:flex;
+    flex-direction: column;
+    background-color: #eef1f7;
+    width: 90%;
+    max-width: 600px;
+    align-items: center;
+    margin: 0 auto;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+
+}
+
+#modal-content1 img{
+    width: 80%;
+    max-width: 600px;
+    height: auto;
+}
+#close-button1 img{
+    width: 70px !important;
+    /* margin-left: 0 auto; */
+    /* align-self: flex-end; */
+
+}
+#close-button1{
+    align-self: flex-end;
+}
+/* #RC-1{
+    max-width: 100px;
+    margin: 0 auto;
+} */
+#transparent-effect2{
+    z-index: 1;
+    position: fixed;
+    background-color: #00000080;
+    width:100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+#modal-content2{
+    z-index: 2;
+    position: fixed;
+    /* top: 0;
+    bottom: 0; */
+    display:flex;
+    flex-direction: column;
+    background-color: #eef1f7;
+    width: 90%;
+    max-width: 600px;
+    align-items: center;
+    margin: 0 auto;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+
+}
+
+#modal-content2 img{
+    width: 80%;
+    max-width: 600px;
+    height: auto;
+}
+#close-button2 img{
+    width: 70px !important;
+    /* margin-left: 0 auto; */
+    /* align-self: flex-end; */
+
+}
+#close-button2{
+    align-self: flex-end;
+}
+#transparent-effect3{
+    z-index: 1;
+    position: fixed;
+    background-color: #00000080;
+    width:100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+#modal-content3{
+    z-index: 2;
+    position: fixed;
+    /* top: 0;
+    bottom: 0; */
+    display:flex;
+    flex-direction: column;
+    background-color: #eef1f7;
+    width: 90%;
+    max-width: 600px;
+    align-items: center;
+    margin: 0 auto;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+
+}
+
+#modal-content3 img{
+    width: 80%;
+    max-width: 600px;
+    height: auto;
+}
+#close-button3 img{
+    width: 70px !important;
+    /* margin-left: 0 auto; */
+    /* align-self: flex-end; */
+
+}
+#close-button3{
+    align-self: flex-end;
+}
+picture img{
+    width:100%;
+    max-width: 600px;
+}
+picture{
+    width:100%;
+    max-width: 600px;
+}
+.header .current-selection a{
+    padding: 1px;
+    border-bottom: 2px solid #c9a84c;
+}

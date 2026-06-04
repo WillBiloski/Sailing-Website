@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WB292 Project</title>
+    <link rel="stylesheet" href="styles/site.css">
+</head>
+<body>
+    <header>
+        <div class = "header">
+            <a href = "index.html" class = "logo"> <img src = "images/logo.png" alt = "sailing logo"></a>
+            <div class = "hamb-align">
+                <div class= "title-centerer"> </div>
+                <h1> Super Sailing </h1>
+                <button id = "hamb-button" class = "hamb-class"> <img src = "images/hamburger-yellow.png" alt = "hamburger button"> </button>
+            </div>
+            <nav id ="hamb-nav" class = "hidden">
+                <ul>
+                    <li class = "current-selection"><a href="index.html"><img src="images/home-icon.png" alt="home page icon"> Home</a></li>
+                    <li><a href="classification.html"><img src="images/sailboat-icon.png" alt="sailboat icon"> Boat Classification</a></li>
+                    <li><a href="techniques.html"><img src="images/steering-wheel-icon.png" alt="sailboat wheel icon"> Sailing Techniques</a></li>
+                    <li><a href="races.html"><img src="images/race-icon.png" alt="race flag icon"> Sailing Races</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+    <div class = "straight">
+        <!-- <img src = "images/home-page.png" alt = "sailors hiking off sailboat"> -->
+        <picture>
+            <source media = "(min-width: 750px)" srcset="images/home-page-wide.png">
+            <img src = "images/home-page.png" alt = "sailboat">
+        </picture>
+        <!-- Source: ChatGPT used to generate home page summary for site -->
+        <p> Sailing blends skill, strategy, and a deep connection to the water, making it both a sport and an art. This site is your guide to understanding the world of sailing—from how sailboats are classified by design, size, and purpose, to the essential techniques that harness wind and waves for efficient movement. Whether you're learning how to trim sails, navigate changing conditions, or master advanced maneuvers, you'll find clear explanations and practical insights. We also explore some of the most prolific sailing races around the world, highlighting the history, innovation, and competitive spirit that define the sport at its highest level. </p>
+    </div>
+    <div class = "reverse">
+        <img src = "images/yacht-club.png" alt = "Sakonnet Yacht Club">
+        <!-- Source: ChatGPT used to generate paragraph -->
+        <p>Since I was eight years old, I have spent my summers at the Sakonnet Yacht Club in Rhode Island learning how to sail and building a deep connection to the water. Over the years, sailing became one of the most important parts of my life, shaping how I spend each summer and steadily expanding my skills and confidence. I learned to sail a wide range of boats, including Ynglings, Optis, 420s, and many others, which gave me experience with different styles of handling, teamwork, and racing. Spending so much time on the water each summer not only made me a stronger sailor, but also taught me patience, discipline, and a lasting appreciation for the sport.</p>
+    </div>
+    <div class = "straight">
+        <img src = "images/sailing-center.png" alt = "cornell sailing center">
+        <!-- Source: ChatGPT used to generate paragraph -->
+        <p> I have worked at the Cornell Sailing Center for three years, where I have had the opportunity to teach a wide range of students in both recreational and instructional settings. During that time, I have taught summer gym classes for campers, led adult sailing lessons, and worked with students in Cornell gym sailing classes. This experience has helped me develop strong communication, leadership, and teaching skills, as I learned how to adapt my instruction to different age groups and experience levels. Working at the Sailing Center has been especially meaningful because it has allowed me to share my passion for sailing while helping others build confidence, improve their skills, and enjoy being on the water.</p>
+    </div>
+    <footer>
+        <p> Created by Will Biloski, 2026 <br> To contact: <br>
+        Email: <a href="mailto:wb292@cornell.edu">wb292@cornell.edu</a> <br>
+        Phone number: <a href="tel:6072204422"> (607) 220-4422</a> </p>
+    </footer>
+    <script src="scripts/jquery-3.7.1.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
