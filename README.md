@@ -1,8 +1,8 @@
-**Super Sailing**
+**Super Sailing<br>**
 A responsive, multi-page website designed to teach others about sailing while refining my HTML, CSS, and J.S. ability.
 ![Home page image](images/home-page-example.png) 
 
-**About**
+**About:<br>**
 This site serves to inform non-sailors more about the sport. The site includes aspects on racing techniques, specific sailing races and general boat knowledge.
 
 **Features**
